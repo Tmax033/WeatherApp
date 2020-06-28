@@ -50,7 +50,7 @@ function App() {
                   <div className="location">{weather.name}, {weather.sys.country}</div>
                       <div className="date">{dateBuilder(new(Date))}</div>
                         <div className="weather-box">
-                           <div className="temp">{Math.round(weather.main.temp)}°C</div>
+                           <div className="temp">{Math.round(weather.main.temp)/10}°C</div>
                               <div className="weather">{weather.weather[0].main}</div>
                         </div>
               </div>
