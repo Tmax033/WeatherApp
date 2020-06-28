@@ -56,7 +56,7 @@ function App() {
               </div>
            </div>
          ):('')}
-           <div className="author">Made by Tharindu Thiwanka
+           <div className="author">Created by Tharindu Thiwanka
            </div>
       </main>
     
